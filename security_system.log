@@ -1,0 +1,323 @@
+2025-12-16 19:53:24,728 - INFO - Created directory: faces_dataset
+2025-12-16 19:53:24,732 - INFO - Face recognition model loaded successfully
+2025-12-16 19:53:24,732 - INFO - Known faces: ['owner']
+2025-12-16 19:53:24,738 - INFO - Database setup completed
+2025-12-16 19:53:24,739 - INFO - File storage setup completed
+2025-12-16 19:53:24,740 - WARNING - Could not establish serial connection: could not open port 'COM11': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2). Running in simulation mode.
+2025-12-16 19:53:24,740 - INFO - Camera Tracking System initialized
+2025-12-16 19:53:35,969 - INFO - Camera initialized successfully
+2025-12-16 19:53:35,970 - INFO - Security System STARTED - Press 'q' to quit, 't' to train, 'l' to lock door
+2025-12-16 19:53:36,448 - WARNING - 🚨 SECURITY ALERT: SUSPICIOUS_MOTION
+2025-12-16 19:53:36,454 - WARNING - Alert logged: SUSPICIOUS_MOTION - HIGH - Suspicious movement detected near entrance
+2025-12-16 19:53:36,454 - INFO - 📱 SMS to POLICE: SECURITY ALERT: SUSPICIOUS_MOTION - Suspicious movement detected near entrance - Location: Your Address
+2025-12-16 19:53:36,455 - INFO - 📱 SMS to OWNER: HOME SECURITY: SUSPICIOUS_MOTION - Suspicious movement detected near entrance
+2025-12-16 19:53:36,483 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:53:36,483 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:53:36,523 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:53:49,737 - WARNING - Unknown person detected - starting tracking
+2025-12-16 19:53:49,738 - WARNING - 🚨 SECURITY ALERT: INTRUDER_DETECTED
+2025-12-16 19:53:49,746 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-16 19:53:49,746 - INFO - 📱 SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-16 19:53:49,747 - INFO - 📱 SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-16 19:53:49,784 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:53:49,785 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:53:49,825 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:53:49,825 - INFO - Tracking servo moved to 80°
+2025-12-16 19:53:49,867 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:53:49,898 - INFO - Tracking servo moved to 70°
+2025-12-16 19:53:49,937 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:53:50,554 - INFO - Tracking servo moved to 89°
+2025-12-16 19:53:50,596 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:53:50,635 - INFO - Tracking servo moved to 108°
+2025-12-16 19:53:50,674 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:53:54,949 - INFO - Tracking servo moved to 90°
+2025-12-16 19:53:54,990 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:53:55,082 - WARNING - Unknown person detected - starting tracking
+2025-12-16 19:53:55,082 - WARNING - 🚨 SECURITY ALERT: INTRUDER_DETECTED
+2025-12-16 19:53:55,091 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-16 19:53:55,092 - INFO - 📱 SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-16 19:53:55,092 - INFO - 📱 SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-16 19:53:55,131 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:53:55,131 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:53:55,172 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:53:57,626 - INFO - Tracking servo moved to 94°
+2025-12-16 19:53:57,667 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:53:57,696 - INFO - Tracking servo moved to 98°
+2025-12-16 19:53:57,733 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:00,152 - INFO - Tracking servo moved to 90°
+2025-12-16 19:54:00,192 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:00,697 - WARNING - Unknown person detected - starting tracking
+2025-12-16 19:54:00,699 - WARNING - 🚨 SECURITY ALERT: INTRUDER_DETECTED
+2025-12-16 19:54:00,708 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-16 19:54:00,708 - INFO - 📱 SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-16 19:54:00,708 - INFO - 📱 SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-16 19:54:00,747 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:54:00,747 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:54:00,786 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:54:00,786 - INFO - Tracking servo moved to 86°
+2025-12-16 19:54:00,828 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:00,866 - INFO - Tracking servo moved to 82°
+2025-12-16 19:54:00,903 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:00,944 - INFO - Tracking servo moved to 78°
+2025-12-16 19:54:00,983 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,097 - INFO - Tracking servo moved to 85°
+2025-12-16 19:54:05,138 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,174 - INFO - Tracking servo moved to 92°
+2025-12-16 19:54:05,212 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,255 - INFO - Tracking servo moved to 99°
+2025-12-16 19:54:05,292 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,369 - INFO - Tracking servo moved to 106°
+2025-12-16 19:54:05,410 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,440 - INFO - Tracking servo moved to 113°
+2025-12-16 19:54:05,479 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,519 - INFO - Tracking servo moved to 120°
+2025-12-16 19:54:05,554 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,771 - INFO - Tracking servo moved to 124°
+2025-12-16 19:54:05,813 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,846 - INFO - Tracking servo moved to 128°
+2025-12-16 19:54:05,883 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,923 - INFO - Tracking servo moved to 132°
+2025-12-16 19:54:05,960 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:05,983 - INFO - Tracking servo moved to 90°
+2025-12-16 19:54:06,020 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:06,695 - WARNING - Unknown person detected - starting tracking
+2025-12-16 19:54:06,695 - WARNING - 🚨 SECURITY ALERT: INTRUDER_DETECTED
+2025-12-16 19:54:06,702 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-16 19:54:06,702 - INFO - 📱 SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-16 19:54:06,702 - INFO - 📱 SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-16 19:54:06,739 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:54:06,739 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:54:06,780 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:54:06,781 - INFO - Tracking servo moved to 86°
+2025-12-16 19:54:06,818 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:06,844 - INFO - Tracking servo moved to 82°
+2025-12-16 19:54:06,884 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:07,769 - INFO - Tracking servo moved to 90°
+2025-12-16 19:54:07,820 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:07,857 - INFO - Tracking servo moved to 98°
+2025-12-16 19:54:07,896 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:08,840 - INFO - Tracking servo moved to 100°
+2025-12-16 19:54:08,880 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:08,914 - INFO - Tracking servo moved to 102°
+2025-12-16 19:54:08,951 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:11,764 - INFO - Tracking servo moved to 90°
+2025-12-16 19:54:11,805 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:54:16,234 - INFO - Security System stopped and cleaned up
+2025-12-16 19:57:50,985 - INFO - Face recognition model loaded successfully
+2025-12-16 19:57:50,986 - INFO - Known faces: ['owner']
+2025-12-16 19:57:50,987 - INFO - Database setup completed
+2025-12-16 19:57:50,989 - INFO - File storage setup completed
+2025-12-16 19:57:50,989 - WARNING - Could not establish serial connection: could not open port 'COM11': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2). Running in simulation mode.
+2025-12-16 19:57:50,989 - INFO - Camera Tracking System initialized
+2025-12-16 19:58:01,962 - INFO - Camera initialized successfully
+2025-12-16 19:58:01,962 - INFO - Security System STARTED - Press 'q' to quit, 't' to train, 'l' to lock door
+2025-12-16 19:58:02,751 - WARNING - 🚨 SECURITY ALERT: SUSPICIOUS_MOTION
+2025-12-16 19:58:02,759 - WARNING - Alert logged: SUSPICIOUS_MOTION - HIGH - Suspicious movement detected near entrance
+2025-12-16 19:58:02,760 - INFO - 📱 SMS to POLICE: SECURITY ALERT: SUSPICIOUS_MOTION - Suspicious movement detected near entrance - Location: Your Address
+2025-12-16 19:58:02,760 - INFO - 📱 SMS to OWNER: HOME SECURITY: SUSPICIOUS_MOTION - Suspicious movement detected near entrance
+2025-12-16 19:58:02,797 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:58:02,798 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:58:02,838 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:58:08,233 - WARNING - Unknown person detected - starting tracking
+2025-12-16 19:58:08,234 - WARNING - 🚨 SECURITY ALERT: INTRUDER_DETECTED
+2025-12-16 19:58:08,242 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-16 19:58:08,243 - INFO - 📱 SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-16 19:58:08,243 - INFO - 📱 SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-16 19:58:08,281 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:58:08,281 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:58:08,322 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:58:08,322 - INFO - Tracking servo moved to 95°
+2025-12-16 19:58:08,362 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:08,398 - INFO - Tracking servo moved to 100°
+2025-12-16 19:58:08,435 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:08,478 - INFO - DOOR UNLOCKED - Servo 1 rotated 90°
+2025-12-16 19:58:08,515 - INFO - Security event logged: DOOR_UNLOCKED - owner
+2025-12-16 19:58:10,359 - INFO - Tracking servo moved to 104°
+2025-12-16 19:58:10,402 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:10,439 - INFO - Tracking servo moved to 108°
+2025-12-16 19:58:10,476 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:10,755 - INFO - Tracking servo moved to 104°
+2025-12-16 19:58:10,795 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:10,829 - INFO - Tracking servo moved to 100°
+2025-12-16 19:58:10,866 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:10,907 - INFO - Tracking servo moved to 94°
+2025-12-16 19:58:10,945 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:10,986 - INFO - Tracking servo moved to 88°
+2025-12-16 19:58:11,023 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:11,063 - INFO - Tracking servo moved to 81°
+2025-12-16 19:58:11,100 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:11,140 - INFO - Tracking servo moved to 74°
+2025-12-16 19:58:11,181 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:13,301 - INFO - Tracking servo moved to 90°
+2025-12-16 19:58:13,345 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,044 - WARNING - Unknown person detected - starting tracking
+2025-12-16 19:58:17,045 - WARNING - 🚨 SECURITY ALERT: INTRUDER_DETECTED
+2025-12-16 19:58:17,054 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-16 19:58:17,054 - INFO - 📱 SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-16 19:58:17,054 - INFO - 📱 SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-16 19:58:17,092 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:58:17,092 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:58:17,130 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:58:17,130 - INFO - Tracking servo moved to 96°
+2025-12-16 19:58:17,171 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,198 - INFO - Tracking servo moved to 102°
+2025-12-16 19:58:17,237 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,275 - INFO - Tracking servo moved to 112°
+2025-12-16 19:58:17,313 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,354 - INFO - Tracking servo moved to 122°
+2025-12-16 19:58:17,392 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,435 - INFO - Tracking servo moved to 132°
+2025-12-16 19:58:17,473 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,510 - INFO - Tracking servo moved to 142°
+2025-12-16 19:58:17,548 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,591 - INFO - Tracking servo moved to 151°
+2025-12-16 19:58:17,631 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,701 - INFO - Tracking servo moved to 160°
+2025-12-16 19:58:17,736 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,777 - INFO - Tracking servo moved to 169°
+2025-12-16 19:58:17,815 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,845 - INFO - Tracking servo moved to 178°
+2025-12-16 19:58:17,882 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,919 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:17,956 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:17,995 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,034 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,073 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,112 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,153 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,191 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,232 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,270 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,306 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,347 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,384 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,422 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,465 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,507 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,542 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,580 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,589 - INFO - DOOR LOCKED - Servo 1 rotated 0°
+2025-12-16 19:58:18,629 - INFO - Security event logged: DOOR_LOCKED - system
+2025-12-16 19:58:18,653 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,691 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,773 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,812 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,840 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:18,879 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:18,919 - INFO - DOOR UNLOCKED - Servo 1 rotated 90°
+2025-12-16 19:58:18,957 - INFO - Security event logged: DOOR_UNLOCKED - owner
+2025-12-16 19:58:20,373 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:20,438 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:20,475 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:20,514 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,047 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,088 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,118 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,157 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,196 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,232 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,274 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,314 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,445 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,492 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,523 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,562 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,599 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,637 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,677 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,718 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,755 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,794 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,833 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,871 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,912 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:21,948 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:21,992 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:22,029 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:22,072 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:22,112 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:22,149 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:22,188 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:22,225 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:22,262 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:22,306 - INFO - Tracking servo moved to 180°
+2025-12-16 19:58:22,344 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:22,383 - INFO - Tracking servo moved to 90°
+2025-12-16 19:58:22,421 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:22,647 - WARNING - Unknown person detected - starting tracking
+2025-12-16 19:58:22,648 - WARNING - 🚨 SECURITY ALERT: INTRUDER_DETECTED
+2025-12-16 19:58:22,657 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-16 19:58:22,657 - INFO - 📱 SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-16 19:58:22,657 - INFO - 📱 SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-16 19:58:22,696 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:58:22,696 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:58:22,736 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:58:22,737 - INFO - Tracking servo moved to 92°
+2025-12-16 19:58:22,777 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:22,805 - INFO - Tracking servo moved to 94°
+2025-12-16 19:58:22,844 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,179 - INFO - Tracking servo moved to 97°
+2025-12-16 19:58:23,219 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,259 - INFO - Tracking servo moved to 100°
+2025-12-16 19:58:23,297 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,337 - INFO - Tracking servo moved to 104°
+2025-12-16 19:58:23,374 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,416 - INFO - Tracking servo moved to 108°
+2025-12-16 19:58:23,455 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,492 - INFO - Tracking servo moved to 112°
+2025-12-16 19:58:23,532 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,572 - INFO - Tracking servo moved to 116°
+2025-12-16 19:58:23,611 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,718 - INFO - Tracking servo moved to 120°
+2025-12-16 19:58:23,760 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,794 - INFO - Tracking servo moved to 124°
+2025-12-16 19:58:23,835 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,872 - INFO - Tracking servo moved to 128°
+2025-12-16 19:58:23,911 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:23,950 - INFO - Tracking servo moved to 132°
+2025-12-16 19:58:23,987 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,029 - INFO - Tracking servo moved to 135°
+2025-12-16 19:58:24,067 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,108 - INFO - Tracking servo moved to 138°
+2025-12-16 19:58:24,147 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,186 - INFO - Tracking servo moved to 141°
+2025-12-16 19:58:24,227 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,263 - INFO - Tracking servo moved to 144°
+2025-12-16 19:58:24,300 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,328 - INFO - Tracking servo moved to 148°
+2025-12-16 19:58:24,365 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,404 - INFO - Tracking servo moved to 152°
+2025-12-16 19:58:24,443 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,482 - INFO - Tracking servo moved to 156°
+2025-12-16 19:58:24,523 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,561 - INFO - Tracking servo moved to 160°
+2025-12-16 19:58:24,598 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,638 - INFO - Tracking servo moved to 163°
+2025-12-16 19:58:24,682 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,718 - INFO - Tracking servo moved to 166°
+2025-12-16 19:58:24,758 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:24,794 - INFO - Tracking servo moved to 168°
+2025-12-16 19:58:24,834 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:27,713 - INFO - Tracking servo moved to 90°
+2025-12-16 19:58:27,754 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:28,246 - WARNING - Unknown person detected - starting tracking
+2025-12-16 19:58:28,247 - WARNING - 🚨 SECURITY ALERT: INTRUDER_DETECTED
+2025-12-16 19:58:28,256 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-16 19:58:28,256 - INFO - 📱 SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-16 19:58:28,256 - INFO - 📱 SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-16 19:58:28,295 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-16 19:58:28,296 - INFO - 🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-16 19:58:28,339 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-16 19:58:28,339 - INFO - Tracking servo moved to 81°
+2025-12-16 19:58:28,378 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:28,414 - INFO - Tracking servo moved to 72°
+2025-12-16 19:58:28,452 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:28,495 - INFO - Tracking servo moved to 61°
+2025-12-16 19:58:28,533 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:28,572 - INFO - Tracking servo moved to 50°
+2025-12-16 19:58:28,610 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:28,644 - INFO - Tracking servo moved to 40°
+2025-12-16 19:58:28,684 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-16 19:58:29,058 - INFO - DOOR LOCKED - Servo 1 rotated 0°
+2025-12-16 19:58:29,100 - INFO - Security event logged: DOOR_LOCKED - system
+2025-12-16 19:58:32,454 - INFO - Security System stopped and cleaned up
