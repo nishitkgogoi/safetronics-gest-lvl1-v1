@@ -246,6 +246,10 @@ class DataStorage:
             self.logger.info(f"Saved evidence clip: {filename}")
             return filename
 
+        except Exception as e:
+            self.logger.error(f"Error saving evidence clip: {e}")
+            return None
+
     def queue_clip_for_gesture(self, clip_path, bbox=None):
         """Copy an existing clip into the gesture worker input queue and write metadata.
 
