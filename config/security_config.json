@@ -1,0 +1,16 @@
+{
+  "gesture": {
+    "motion_only_threshold": 0.06,
+    "motion_weight": 0.3,
+    "hands_weight": 0.3,
+    "raised_weight": 0.2,
+    "speed_weight": 0.2,
+    "combined_threshold": 0.45,
+    "motion_min_for_combined": 0.08,
+    "config_watch_interval_seconds": 1,
+    "use_tasks": true,
+    "pose_model_path": "models/pose_landmarker.task",
+    "hand_model_path": "models/hand_landmarker.task",
+    "auto_discover_tasks": false
+  }
+}

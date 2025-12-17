@@ -298,10 +298,10 @@ class CameraTrackingSystem:
     def trigger_security_alert(self, alert_type, details=None):
         """Trigger security alerts and notifications"""
         try:
-            self.logger.warning(f"🚨 SECURITY ALERT: {alert_type}")
+            self.logger.warning(f"[ALERT] SECURITY ALERT: {alert_type}")
             
             # Determine severity and description
-            if alert_type == "SUSPICIOUS_MOTION":
+            if alert_type == "SUSPICIOUS_MOTION": 
                 severity = "HIGH"
                 description = "Suspicious movement detected near entrance"
                 action_taken = "GSM alerts sent, relay activated"
@@ -309,6 +309,10 @@ class CameraTrackingSystem:
                 severity = "CRITICAL"
                 description = "Unknown person attempting access"
                 action_taken = "Tracking activated, alerts sent"
+            elif alert_type == "FORCE_ENTRY_SUSPECTED":
+                severity = "CRITICAL"
+                description = "Possible forced entry or tampering at door"
+                action_taken = "Immediate lock engaged, high-priority alerts sent"
             else:
                 severity = "MEDIUM"
                 description = f"Security event: {alert_type}"
@@ -335,8 +339,8 @@ class CameraTrackingSystem:
             police_message = f"SECURITY ALERT: {alert_type} - {description} - Location: Your Address"
             owner_message = f"HOME SECURITY: {alert_type} - {description}"
             
-            self.logger.info(f"📱 SMS to POLICE: {police_message}")
-            self.logger.info(f"📱 SMS to OWNER: {owner_message}")
+            self.logger.info(f"SMS to POLICE: {police_message}")
+            self.logger.info(f"SMS to OWNER: {owner_message}")
             
             # Log the alert
             self.data_storage.log_security_event(
@@ -354,7 +358,7 @@ class CameraTrackingSystem:
         """Activate security relay"""
         try:
             # Simulate relay activation (replace with actual GPIO code)
-            self.logger.info("🔒 SECURITY RELAY ACTIVATED - Additional security measures enabled")
+            self.logger.info("SECURITY RELAY ACTIVATED - Additional security measures enabled")
             
             self.data_storage.log_security_event(
                 "RELAY_ACTIVATED",
@@ -469,9 +473,26 @@ class CameraTrackingSystem:
                     except Exception as e:
                         self.logger.error(f"Failed saving gesture clip: {e}")
 
-                    # Trigger alert
-                    self.trigger_security_alert("SUSPICIOUS_GESTURE", f"{label} ({conf:.2f})")
-                    self.data_storage.log_security_event("SUSPICIOUS_GESTURE", "unknown", conf * 100, "front_door", f"Label={label}, clip={saved}")
+                    # If the recognizer included a suspicion_score, use it to escalate
+                    suspicion_score = details.get('suspicion_score', 0.0) if isinstance(details, dict) else 0.0
+
+                    # Escalate to force entry suspected for high scores or the dedicated label
+                    if label == 'force_entry_suspected' or suspicion_score >= 0.6:
+                        self.logger.critical(f"Force-like activity suspected: label={label} score={suspicion_score:.2f}")
+                        # Trigger a stronger alert and attempt to lock the door
+                        try:
+                            # Lock door immediately
+                            self.control_servo1(unlock=False)
+                        except Exception as e:
+                            self.logger.error(f"Failed to lock door during escalation: {e}")
+
+                        # Trigger force entry alert
+                        self.trigger_security_alert("FORCE_ENTRY_SUSPECTED", f"{label} ({suspicion_score:.2f})")
+                        self.data_storage.log_security_event("FORCE_ENTRY_SUSPECTED", "unknown", suspicion_score * 100, "front_door", f"Label={label}, clip={saved}")
+                    else:
+                        # Normal suspicious gesture path
+                        self.trigger_security_alert("SUSPICIOUS_GESTURE", f"{label} ({conf:.2f})")
+                        self.data_storage.log_security_event("SUSPICIOUS_GESTURE", "unknown", conf * 100, "front_door", f"Label={label}, clip={saved}")
 
                     # Overlay message for a short time
                     try:
