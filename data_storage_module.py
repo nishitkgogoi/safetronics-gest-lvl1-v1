@@ -272,9 +272,19 @@ class DataStorage:
             shutil.copy2(clip_path, dest)
 
             # Write metadata file with same uid
+            # Ensure bbox is JSON-serializable (convert numpy/int types to plain ints)
+            safe_bbox = None
+            if bbox is not None:
+                try:
+                    x, y, w, h = bbox
+                    safe_bbox = [int(x), int(y), int(w), int(h)]
+                except Exception:
+                    # If bbox is not a simple iterable, ignore
+                    safe_bbox = None
+
             meta = {
                 'clip': dest,
-                'bbox': bbox,
+                'bbox': safe_bbox,
                 'timestamp': datetime.now().isoformat()
             }
             meta_path = dest.replace('.avi', '.json')

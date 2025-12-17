@@ -72,7 +72,8 @@ class CameraTrackingSystem:
         self._gesture_analysis_in_progress = False
         self.gesture_last_alert_time = None
         self.gesture_alert_cooldown = 30  # seconds between gesture alerts
-        self.gesture_overlay = None
+        # Structured overlay info (dict with label/conf/details/bbox) shown on-screen
+        self.gesture_overlay_info = None
         self.gesture_overlay_until = 0
         
         self.logger.info("Camera Tracking System initialized")
@@ -171,6 +172,14 @@ class CameraTrackingSystem:
                 self.logger.error("Cannot read from camera")
                 return False
             
+            # Ensure a named window exists so overlays are visible
+            try:
+                cv2.namedWindow('Security System - Camera Tracking', cv2.WINDOW_NORMAL)
+                cv2.resizeWindow('Security System - Camera Tracking', self.frame_width, self.frame_height)
+            except Exception:
+                # Some environments may not support windowing (headless) — ignore errors
+                pass
+
             self.logger.info("Camera initialized successfully")
             return True
             
@@ -494,10 +503,43 @@ class CameraTrackingSystem:
                         self.trigger_security_alert("SUSPICIOUS_GESTURE", f"{label} ({conf:.2f})")
                         self.data_storage.log_security_event("SUSPICIOUS_GESTURE", "unknown", conf * 100, "front_door", f"Label={label}, clip={saved}")
 
-                    # Overlay message for a short time
+                    # Overlay structured info for a short time (label, conf, details, bbox)
                     try:
-                        self.gesture_overlay = f"{label} {int(conf*100)}%"
+                        self.gesture_overlay_info = {
+                            'label': label,
+                            'conf': float(conf),
+                            'details': details if isinstance(details, dict) else {},
+                            'suspicion_score': float(suspicion_score),
+                            'bbox': bbox
+                        }
                         self.gesture_overlay_until = time.time() + 5
+
+                        # Log overlay event and save an annotated snapshot for review
+                        try:
+                            self.logger.info(f"Gesture overlay set: {self.gesture_overlay_info}")
+                            # Build annotated snapshot
+                            if frames and isinstance(frames, (list, tuple)) and len(frames) > 0:
+                                snapshot = frames[len(frames)//2].copy()
+                                # Draw overlay text on snapshot
+                                cv2.putText(snapshot, f"GESTURE: {label} {int(conf*100)}%", (12, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255), 2)
+                                cv2.putText(snapshot, f"Score:{suspicion_score:.2f} Motion:{details.get('motion_mag',0.0):.2f}", (12, 55), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255,255,255), 1)
+                                # Draw bbox if available
+                                if bbox:
+                                    bx, by, bw, bh = bbox
+                                    try:
+                                        bx, by, bw, bh = int(bx), int(by), int(bw), int(bh)
+                                        cv2.rectangle(snapshot, (bx, by), (bx + bw, by + bh), (0,0,255), 2)
+                                    except Exception:
+                                        pass
+                                # Ensure evidence image folder exists
+                                import os
+                                p = os.path.join('evidence', 'images')
+                                os.makedirs(p, exist_ok=True)
+                                fn = os.path.join(p, f"overlay_{label}_{int(time.time())}.jpg")
+                                cv2.imwrite(fn, snapshot)
+                                self.logger.info(f"Saved overlay snapshot: {fn}")
+                        except Exception:
+                            pass
                     except Exception:
                         pass
 
@@ -551,9 +593,31 @@ class CameraTrackingSystem:
                         # Trigger an alert and log event
                         self.trigger_security_alert('SUSPICIOUS_GESTURE', f"{label} ({conf:.2f})")
                         self.data_storage.log_security_event('SUSPICIOUS_GESTURE', 'unknown', conf * 100, 'front_door', f"Label={label}, clip={clip}")
-                        # Overlay message briefly
-                        self.gesture_overlay = f"{label} {int(conf*100)}%"
-                        self.gesture_overlay_until = time.time() + 5
+                        # Overlay structured info briefly (may not include details/bbox from worker)
+                        try:
+                            self.gesture_overlay_info = {
+                                'label': label,
+                                'conf': float(conf),
+                                'details': {},
+                                'suspicion_score': float(conf),
+                                'bbox': None
+                            }
+                            self.gesture_overlay_until = time.time() + 5
+
+                            # Log and save snapshot for worker-reported overlays
+                            try:
+                                self.logger.info(f"Gesture worker overlay set: {self.gesture_overlay_info}")
+                                import os
+                                p = os.path.join('evidence', 'images')
+                                os.makedirs(p, exist_ok=True)
+                                fn = os.path.join(p, f"overlay_worker_{label}_{int(time.time())}.txt")
+                                with open(fn, 'w', encoding='utf-8') as fh:
+                                    fh.write(str(self.gesture_overlay_info))
+                                self.logger.info(f"Saved overlay worker metadata: {fn}")
+                            except Exception:
+                                pass
+                        except Exception:
+                            pass
                         self.gesture_last_alert_time = now
 
                 # Move processed files to processed folder
@@ -632,11 +696,36 @@ class CameraTrackingSystem:
                             clip_path = None
                             try:
                                 # Save a temporary clip
-                                clip_path = self.data_storage.save_evidence_clip(recent_frames, "gesture_candidate", "unknown", fps=self.fps)
+                                clip_path = self.data_storage.save_evidence_clip(
+                                    recent_frames, "gesture_candidate", "unknown", fps=self.fps
+                                )
                                 if clip_path:
-                                    queued = self.data_storage.queue_clip_for_gesture(clip_path, bbox=unknown_faces[0]['bbox'])
+                                    queued = self.data_storage.queue_clip_for_gesture(
+                                        clip_path, bbox=unknown_faces[0]['bbox']
+                                    )
                                     if queued:
                                         self.logger.info(f"Clip queued for gesture worker: {queued}")
+                                    else:
+                                        # If queueing failed, fall back to local analysis using the saved recent frames
+                                        try:
+                                            self.logger.info("Queueing failed; falling back to local gesture analysis")
+                                            import threading
+                                            # Sanitize bbox to plain ints if possible
+                                            bbox_raw = unknown_faces[0].get('bbox') if isinstance(unknown_faces[0], dict) else None
+                                            bbox_safe = None
+                                            if bbox_raw:
+                                                try:
+                                                    bx, by, bw, bh = bbox_raw
+                                                    bbox_safe = (int(bx), int(by), int(bw), int(bh))
+                                                except Exception:
+                                                    bbox_safe = None
+                                            threading.Thread(
+                                                target=self._analyze_gesture_async,
+                                                args=(recent_frames, bbox_safe),
+                                                daemon=True,
+                                            ).start()
+                                        except Exception as e:
+                                            self.logger.error(f"Fallback local analysis failed: {e}")
                             except Exception as e:
                                 self.logger.error(f"Error saving or queuing gesture clip: {e}")
                     except Exception as e:
@@ -656,8 +745,38 @@ class CameraTrackingSystem:
 
                 # Show gesture overlay if active
                 try:
-                    if self.gesture_overlay and time.time() < self.gesture_overlay_until:
-                        cv2.putText(processed_frame, f"GESTURE: {self.gesture_overlay}", (10, 80), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 128, 255), 2)
+                    if self.gesture_overlay_info and time.time() < self.gesture_overlay_until:
+                        info = self.gesture_overlay_info
+                        label = (info.get('label') or 'none').upper()
+                        conf = info.get('conf', 0.0)
+                        score = info.get('suspicion_score', 0.0)
+                        motion = info.get('details', {}).get('motion_mag', 0.0)
+                        # Color: red for force-like, orange for medium, green for low
+                        if label == 'FORCE_ENTRY_SUSPECTED' or score >= 0.6:
+                            color = (0, 0, 255)
+                        elif score >= 0.4:
+                            color = (0, 165, 255)
+                        else:
+                            color = (0, 255, 0)
+                        # Draw background box
+                        try:
+                            h, w = processed_frame.shape[:2]
+                            box_w = min(420, w - 16)
+                            cv2.rectangle(processed_frame, (8, 55), (8 + box_w, 110), color, -1)
+                            text_color = (255, 255, 255)
+                            cv2.putText(processed_frame, f"GESTURE: {label} {int(conf*100)}%", (12, 75), cv2.FONT_HERSHEY_SIMPLEX, 0.6, text_color, 2)
+                            cv2.putText(processed_frame, f"Score:{score:.2f} Motion:{motion:.2f}", (12, 98), cv2.FONT_HERSHEY_SIMPLEX, 0.5, text_color, 1)
+                        except Exception:
+                            pass
+                        # Draw bbox if available
+                        bbox = info.get('bbox')
+                        try:
+                            if bbox:
+                                bx, by, bw, bh = bbox
+                                bx, by, bw, bh = int(bx), int(by), int(bw), int(bh)
+                                cv2.rectangle(processed_frame, (bx, by), (bx + bw, by + bh), color, 2)
+                        except Exception:
+                            pass
                 except Exception:
                     pass
                 
