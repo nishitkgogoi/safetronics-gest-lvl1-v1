@@ -26598,5 +26598,3869 @@
     "confidence": 0,
     "location": "front_door",
     "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193208.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:17.656383",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: SUSPICIOUS_MOTION"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:17.768068",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:19.485732",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:19.597725",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:19.717747",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 59\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:19.982816",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193819.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:20.214413",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 28\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:20.464121",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193820.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:20.637823",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 0\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:20.883133",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193820.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:21.260770",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 0\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:21.509995",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193821.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:24.062017",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 0\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:24.352670",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193824.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:24.531620",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:25.889508",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:26.012896",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:26.162431",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 96\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:26.433205",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193826.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:27.718395",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 100\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:28.017974",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193827.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:30.915244",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:33.102220",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:33.219683",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:33.337396",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 112\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:33.619119",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193833.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:38.118326",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:40.203580",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:40.309838",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:40.431175",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 112\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:40.683918",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193840.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:42.917654",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 122\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:43.164938",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193843.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:43.325783",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 133\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:43.574781",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193843.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:43.722635",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 142\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:43.972083",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193843.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:44.150077",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 151\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:44.424091",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193844.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:44.606081",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 159\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:44.894878",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193844.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:45.052224",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 167\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:45.321972",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193845.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:45.527647",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 177\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:45.817621",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193845.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:46.006162",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:46.283524",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193846.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:46.452643",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:46.732865",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193846.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:46.904089",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:47.186062",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193847.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:47.367593",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:47.721129",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193847.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:47.889408",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:48.178108",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193848.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:48.368006",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:48.617603",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193848.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:48.780887",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:49.074193",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193848.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:49.251434",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:49.514103",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193849.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:49.695101",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:49.985693",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193849.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:50.161407",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:50.438915",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193850.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:50.602636",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:50.892038",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193850.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:51.093638",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:51.383305",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193851.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:51.565752",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:51.852021",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193851.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:52.027480",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:52.336285",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193852.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:52.510100",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:52.788397",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193852.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:52.958679",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:53.233589",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193853.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:53.395261",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:56.805260",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:56.928226",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:57.216670",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193857.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:57.587069",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193857.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:57.902737",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193857.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:38:58.213846",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193858.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:01.795603",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:04.944341",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:05.064145",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:05.183254",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 99\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:05.470085",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193905.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:10.092572",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193909.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:10.256390",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:10.514612",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:10.616138",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:10.741091",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 99\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:11.048671",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193910.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:11.213804",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 108\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:11.511570",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193911.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:11.686259",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 118\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:11.946021",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193911.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:12.109009",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 130\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:12.406044",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193912.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:12.582269",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 144\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:12.856629",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193912.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:13.029665",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 159\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:13.303975",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193913.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:13.486876",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 177\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:13.781503",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193913.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:13.967071",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:14.229004",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193914.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:14.424631",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:14.708312",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193914.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:14.896661",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:15.175203",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193915.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:15.354170",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:15.647896",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193915.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:15.840953",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:16.135846",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193915.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:16.326736",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:16.597847",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193916.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:16.772214",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:17.055693",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193916.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:17.222463",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:17.490460",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193917.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:17.655108",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:17.925966",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193917.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:18.097891",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: SUSPICIOUS_MOTION"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:18.222323",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:18.384199",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 180\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:18.663695",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_193918.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:39:18.832145",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:47:55.267366",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: SUSPICIOUS_MOTION"
+  },
+  {
+    "timestamp": "2025-12-17T19:47:55.357064",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:48:03.261770",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: SUSPICIOUS_MOTION"
+  },
+  {
+    "timestamp": "2025-12-17T19:48:03.383259",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:18.313205",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: SUSPICIOUS_MOTION"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:18.413047",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:18.782678",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:18.903388",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:19.024471",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 85\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:19.219447",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194919.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:19.467306",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194919.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:19.690856",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194919.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:19.876777",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 88\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:20.052926",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194920.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:20.239241",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 91\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:20.416734",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194920.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:20.668703",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194920.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:20.839803",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 95\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:21.029877",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194920.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:21.210702",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 98\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:21.418590",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194921.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:21.875978",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194921.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:22.158780",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194922.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:22.943187",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194922.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:23.155267",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 101\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:23.393082",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194923.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:23.721227",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194923.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:24.031205",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194923.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:24.193167",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:25.110613",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:25.233446",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:25.350684",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 82\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:25.666171",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194925.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:26.366803",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 70\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:26.659086",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194926.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:26.841686",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 63\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:27.111509",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194926.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:27.464701",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194927.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:27.800084",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194927.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:27.976027",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 59\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:28.283185",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194928.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:28.622445",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194928.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:28.928055",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194928.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:29.277761",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194929.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:29.629203",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194929.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:29.978234",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194929.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:30.324170",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194930.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:30.686989",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194930.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:31.015042",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194930.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:31.173026",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 64\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:31.447547",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194931.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:31.614972",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 72\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:31.906719",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194931.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:32.098815",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 79\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:32.408671",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194932.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:32.582448",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 86\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:32.851813",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194932.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:33.006440",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 94\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:33.306954",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194933.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:33.508838",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 102\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:33.798868",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194933.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:33.977490",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 110\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:34.276594",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194934.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:34.448295",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 118\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:34.741812",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194934.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:34.905008",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:35.789937",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:35.916715",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:36.037542",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 103\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:36.335991",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194936.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:36.508524",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 110\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:36.781942",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194936.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:36.953992",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 115\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:37.233898",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194937.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:37.422266",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 119\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:37.712113",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194937.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:38.765869",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 121\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:39.055154",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194938.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:39.217894",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 136\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:39.467484",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194939.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:39.637274",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 145\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:39.935735",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194939.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:40.117230",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 154\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:40.405463",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194940.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:40.568166",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 159\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:40.863301",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194940.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:41.040333",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 163\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:41.302387",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194941.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:41.465622",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 166\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:41.761970",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194941.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:42.103503",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194941.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:42.293114",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 169\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:42.743921",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194942.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:42.911228",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:43.105149",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:43.234540",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:43.361738",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 94\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:43.680390",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194943.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:43.854648",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 97\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:44.120320",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194943.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:44.294682",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 100\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:44.584134",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194944.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:44.744475",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 104\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:45.048394",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194944.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:45.214457",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 123\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:45.514278",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194945.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:45.698721",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 130\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:46.013686",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194945.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:46.196533",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 134\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:46.460041",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194946.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:46.643188",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 139\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:46.938537",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194946.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:47.283712",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194947.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:47.612051",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194947.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:47.954067",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194947.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:48.295436",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194948.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:48.670335",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194948.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:49.033466",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194948.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:49.374022",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194949.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:49.727005",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194949.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:50.050004",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194949.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:50.400387",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194950.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:50.730930",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194950.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:51.078705",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194950.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:51.443144",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194951.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:51.800974",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194951.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:52.173623",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194952.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:52.357424",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 143\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:52.622739",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194952.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:52.824738",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 147\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:53.118745",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194952.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:53.286768",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 151\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:53.587188",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194953.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:53.751316",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 155\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:54.038212",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194953.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:54.213253",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 160\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:54.481684",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194954.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:54.634850",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:56.130490",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:56.245393",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:56.368911",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 104\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:56.681444",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194956.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:57.500620",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 99\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:57.754253",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194957.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:59.373971",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 110\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:49:59.663964",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_194959.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:01.155274",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:01.357349",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:01.478240",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:01.604426",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 104\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:01.902997",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195001.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:02.740736",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195002.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:03.031602",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 112\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:03.350191",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195003.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:03.735763",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195003.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:04.091029",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195003.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:04.430485",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195004.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:04.791147",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195004.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:05.117633",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195004.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:05.462543",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195005.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:05.788517",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195005.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:06.111954",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195005.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:06.479610",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195006.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:06.855774",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195006.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:07.220130",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195007.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:07.565704",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195007.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:07.928201",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195007.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:08.248280",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195008.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:08.586627",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195008.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:08.929022",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195008.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:09.108968",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:09.275626",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:09.392410",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:09.528693",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 93\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:09.838107",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195009.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:10.198610",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195010.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:10.515735",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195010.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:10.840168",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195010.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:11.183997",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195011.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:11.660574",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195011.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:11.833812",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 97\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:12.135126",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195011.avi"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:12.333534",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 101\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T19:50:12.624506",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_195012.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:04:39.608142",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: SUSPICIOUS_MOTION"
+  },
+  {
+    "timestamp": "2025-12-17T20:04:39.728534",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:54.348521",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: SUSPICIOUS_MOTION"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:54.638479",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:55.084441",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:55.292691",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:55.525640",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200555.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:55.811463",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 97\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:56.052858",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200556.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:56.429774",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200556.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:56.729958",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 94\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:57.003143",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200556.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:57.444427",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200557.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:57.670945",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200557.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:57.891170",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 98\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:58.055519",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200558.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:58.255274",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 105\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:58.439799",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200558.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:58.621198",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 112\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:58.799987",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200558.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:58.997652",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 119\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:59.215228",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200559.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:59.417845",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 125\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:59.587896",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200559.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:59.778467",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 130\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:05:59.953215",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200559.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:00.247134",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200600.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:00.623236",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200600.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:00.909733",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200600.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:01.184813",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200601.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:01.370694",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 133\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:01.594696",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200601.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:01.769615",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 136\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:01.980574",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200601.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:02.165444",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 139\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:02.369983",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200602.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:02.557396",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 142\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:02.777429",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200602.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:02.961046",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 145\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:03.174703",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200603.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:03.353616",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 148\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:03.572690",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200603.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:03.874603",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200603.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:04.185594",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200604.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:04.479150",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200604.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:04.792097",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200604.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:05.122666",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200604.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:05.474557",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200605.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:05.804836",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200605.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:06.148083",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200605.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:06.344788",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 153\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:06.631059",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200606.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:06.819092",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:07.747307",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:07.883145",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:07.996367",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 102\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:08.279273",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200608.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:08.473637",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 107\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:08.794775",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200608.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:09.148047",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200608.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:09.540966",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200609.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:09.901573",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200609.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:10.078946",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 110\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:10.373967",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200610.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:10.549529",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 115\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:10.853125",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200610.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:11.029959",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 120\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:11.312421",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200611.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:11.507535",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 122\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:11.821197",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200611.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:12.021662",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 125\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:12.377889",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200612.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:12.584165",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 133\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:12.911332",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200612.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:13.111045",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:13.551617",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:13.674147",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:13.802655",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 99\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:14.132865",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200613.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:14.318149",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 107\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:14.608068",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200614.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:14.802383",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 113\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:15.101679",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200614.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:15.317128",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 119\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:15.713791",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200615.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:15.945518",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 123\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:16.245214",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200616.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:16.453790",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 126\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:16.771893",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200616.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:16.971623",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 129\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:17.286745",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200617.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:17.503701",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 132\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:17.820691",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200617.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:18.179737",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200618.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:18.587812",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200618.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:18.770097",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:19.149314",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:19.271661",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:19.574597",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200619.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:19.949376",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200619.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:20.176878",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 93\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:20.460733",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200620.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:20.639920",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 96\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:20.927402",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200620.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:21.141853",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 100\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:21.476193",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200621.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:21.666904",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 105\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:21.956389",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200621.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:22.177523",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 111\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:22.476588",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200622.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:22.664509",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 116\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:22.971379",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200622.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:23.135541",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 121\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:23.446164",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200623.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:23.647262",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 125\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:23.936108",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200623.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:24.131464",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 136\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:24.461004",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200624.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:24.642654",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 143\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:24.941006",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200624.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:25.120672",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 150\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:25.547030",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200625.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:25.732458",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 156\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:26.056516",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200625.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:26.259586",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:26.491083",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:26.599342",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:26.716502",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 95\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:27.018786",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200626.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:27.224251",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 99\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:27.509446",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200627.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:28.430755",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200628.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:28.840493",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200628.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:29.237064",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200629.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:29.608066",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200629.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:29.972282",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200629.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:30.337878",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200630.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:30.699114",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200630.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:31.071148",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200630.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:31.305871",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 103\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:31.623153",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200631.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:31.822415",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 113\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:32.104020",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200631.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:32.262336",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 90\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:32.552301",
+    "event_type": "GSM_ALERT_SENT",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Alerts sent for: INTRUDER_DETECTED"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:32.678681",
+    "event_type": "RELAY_ACTIVATED",
+    "person_name": "system",
+    "confidence": 100,
+    "location": "front_door",
+    "additional_info": "Security relay activated for enhanced protection"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:32.790249",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 99\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:33.070318",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200632.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:33.270956",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 105\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:33.566468",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200633.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:33.767771",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 112\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:34.060756",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200633.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:34.261497",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 122\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:34.549283",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200634.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:34.791646",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 128\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:35.093239",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200634.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:35.279644",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 133\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:35.596595",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200635.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:35.790936",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 137\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:36.122247",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200635.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:36.294915",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 139\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:36.618056",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200636.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:36.980199",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200636.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:37.352583",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200637.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:37.753009",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200637.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:37.959105",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 142\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:38.265202",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200638.avi"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:38.442733",
+    "event_type": "TRACKING_MOVEMENT",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Tracking servo moved to 146\u00b0 to follow unknown person"
+  },
+  {
+    "timestamp": "2025-12-17T20:06:38.754503",
+    "event_type": "VIDEO_gesture_candidate",
+    "person_name": "unknown",
+    "confidence": 0,
+    "location": "front_door",
+    "additional_info": "Saved clip: evidence/videos/gesture_candidate_unknown_20251217_200638.avi"
   }
 ]

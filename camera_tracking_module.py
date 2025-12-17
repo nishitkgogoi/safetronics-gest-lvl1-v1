@@ -25,7 +25,7 @@ logging.basicConfig(
 )
 
 class CameraTrackingSystem:
-    def __init__(self, serial_port='COM11', baud_rate=9600):
+    def __init__(self, serial_port='COM11', baud_rate=9600, debug=False):
         self.logger = self.setup_logging()
         
         # Initialize modules
@@ -58,6 +58,9 @@ class CameraTrackingSystem:
         self.baud_rate = baud_rate
         self.serial_connection = None
         self._init_serial_connection()
+        # Debug overlay flags (optical flow visualization, diagnostics)
+        self.debug = bool(debug)
+        self._debug_prev_gray = None
         
         # Motion detection
         self.previous_frame = None
@@ -705,6 +708,33 @@ class CameraTrackingSystem:
                 # Flip frame horizontally for mirror effect
                 frame = cv2.flip(frame, 1)
 
+                # Debug: draw optical flow vectors on processed frame for diagnostic overlay
+                if self.debug:
+                    try:
+                        small = cv2.resize(frame, (160, 120))
+                        gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
+                        if self._debug_prev_gray is not None:
+                            flow = cv2.calcOpticalFlowFarneback(self._debug_prev_gray, gray, None,
+                                                                0.5, 3, 15, 3, 5, 1.2, 0)
+                            mag, ang = cv2.cartToPolar(flow[..., 0], flow[..., 1])
+                            # draw sampled vectors
+                            step = 8
+                            h_small, w_small = gray.shape[:2]
+                            h, w = frame.shape[:2]
+                            scale_x = w / float(w_small)
+                            scale_y = h / float(h_small)
+                            for y in range(0, h_small, step):
+                                for x in range(0, w_small, step):
+                                    dx = flow[y, x, 0]
+                                    dy = flow[y, x, 1]
+                                    start = (int(x * scale_x), int(y * scale_y))
+                                    end = (int((x + dx) * scale_x), int((y + dy) * scale_y))
+                                    cv2.arrowedLine(frame, start, end, (0, 255, 0), 1, tipLength=0.3)
+                        self._debug_prev_gray = gray
+                    except Exception:
+                        # don't let debug visualization break main loop
+                        self._debug_prev_gray = None
+
                 # Keep a rolling buffer of recent frames for gesture analysis
                 try:
                     self.gesture_buffer.append(frame.copy())
@@ -792,6 +822,20 @@ class CameraTrackingSystem:
                 if suspicious_detected:
                     cv2.putText(processed_frame, "SUSPICIOUS ACTIVITY DETECTED!", 
                                (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                    # Also set structured overlay so the same overlay rendering path is used
+                    try:
+                        self.gesture_overlay_info = {
+                            'label': 'SUSPICIOUS_MOTION',
+                            'conf': 1.0,
+                            'details': {'motion_count': 1},
+                            'suspicion_score': 0.8,
+                            'bbox': None
+                        }
+                        # Keep overlay visible for a short period
+                        self.gesture_overlay_until = time.time() + 5
+                        self.logger.info("Motion-based gesture overlay set for visibility")
+                    except Exception:
+                        pass
 
                 # Show gesture overlay if active
                 try:

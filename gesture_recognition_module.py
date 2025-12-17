@@ -20,7 +20,7 @@ class GestureRecognizer:
     collecting labeled clips and training a classifier on keypoint sequences.
     """
 
-    def __init__(self, history_len=16, wrist_speed_thresh=0.08, verbose=False, config=None):
+    def __init__(self, history_len=24, wrist_speed_thresh=0.06, verbose=False, config=None):
         self.logger = logging.getLogger(__name__)
         self.logger.addHandler(logging.NullHandler())
 
@@ -76,10 +76,15 @@ class GestureRecognizer:
 
         # Temporal history of keypoints (normalized coordinates)
         self.history_len = history_len
-        self.wrist_history = deque(maxlen=history_len)  # each entry: list of (lx,ly,rx,ry) or None
 
         # Thresholds
+        self.wrist_history = deque(maxlen=history_len)  # each entry: list of (lx,ly,rx,ry) or None
+
         self.wrist_speed_thresh = wrist_speed_thresh  # normalized units per frame
+        # Exponential moving averages for smoothing
+        self.motion_ema = 0.0
+        self.confidence_ema = 0.0
+        self.ema_alpha = float(gcfg.get('ema_alpha', 0.4))
         self.verbose = verbose
 
         # Config file watch attributes
@@ -140,6 +145,28 @@ class GestureRecognizer:
         # Reset wrist history for this clip
         self.wrist_history.clear()
 
+        # Pre-compute optical flow-based motion magnitude across frame pairs for stronger motion cue
+        motion_vals = []
+        try:
+            prev_gray_of = None
+            for frame in frames:
+                small = cv2.resize(frame, (160, 120))
+                gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
+                if prev_gray_of is not None:
+                    flow = cv2.calcOpticalFlowFarneback(prev_gray_of, gray, None,
+                                                        0.5, 3, 15, 3, 5, 1.2, 0)
+                    mag, ang = cv2.cartToPolar(flow[..., 0], flow[..., 1])
+                    # Normalize by frame diagonal to get scale-invariant measure
+                    norm = np.hypot(gray.shape[0], gray.shape[1])
+                    motion_vals.append(float(np.mean(mag)) / (norm + 1e-6))
+                prev_gray_of = gray
+        except Exception:
+            motion_vals = []
+
+        # Use the maximum optical-flow-based motion as a strong indicator of abrupt movement
+        motion_mag_of = float(np.max(motion_vals)) if motion_vals else 0.0
+
+        # Now process per-frame pose/heuristic keypoints
         for frame in frames:
             proc = frame
             if bbox is not None:
@@ -397,6 +424,7 @@ class GestureRecognizer:
                 c = cur[j]
                 if p is not None and c is not None:
                     dist = np.hypot(c[0] - p[0], c[1] - p[1])
+                    # Adjust threshold based on expected frame-to-frame motion (less strict)
                     if dist > self.wrist_speed_thresh:
                         rapid_count += 1
 
@@ -405,22 +433,30 @@ class GestureRecognizer:
         else:
             speed_ratio = 0.0
 
-        # Compute simple motion magnitude across input frames as a normalized value (0..1)
-        motion_vals = []
+        # Combine optical-flow motion magnitude with the prior frame-diff heuristic
         try:
+            # fallback simple diff-based motion as secondary signal
             prev_gray = None
+            diff_vals = []
             for frame in frames:
                 small = cv2.resize(frame, (160, 120))
                 gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
                 if prev_gray is not None:
                     diff = cv2.absdiff(prev_gray, gray)
-                    # normalized motion: mean diff / 255
-                    motion_vals.append(float(diff.mean()) / 255.0)
+                    diff_vals.append(float(diff.mean()) / 255.0)
                 prev_gray = gray
-            # Use the maximum frame-to-frame motion as an indicator of forceful movement
-            motion_mag = float(np.max(motion_vals)) if motion_vals else 0.0
+            motion_mag_diff = float(np.max(diff_vals)) if diff_vals else 0.0
         except Exception:
-            motion_mag = 0.0
+            motion_mag_diff = 0.0
+
+        # Final motion magnitude: weighted combination (optical flow prioritized)
+        motion_mag = max(motion_mag_of, motion_mag_diff)
+
+        # Smooth motion via EMA to avoid spurious spikes
+        try:
+            self.motion_ema = (self.ema_alpha * motion_mag) + (1.0 - self.ema_alpha) * self.motion_ema
+        except Exception:
+            self.motion_ema = motion_mag
 
         # Decision logic
         suspicious = False
@@ -429,13 +465,15 @@ class GestureRecognizer:
         raised_frac = (raised_votes / frames_with_data) if frames_with_data else 0
         hands_frac = (hands_on_face_votes / frames_with_data) if frames_with_data else 0
 
-        # If motion magnitude is large (peak frame-to-frame diff), treat it as a strong indicator
+        # If motion magnitude is large (optical flow or diff), treat it as a strong indicator
         # of a forceful/abrupt action. This provides sensitivity when pose/hand keypoints are not available.
         suspicion_score = 0.0
-        if motion_mag >= self.motion_only_threshold:
+        # Use EMA-smoothed motion for thresholding to reduce false positives
+        motion_for_decision = max(motion_mag, self.motion_ema)
+        if motion_for_decision >= self.motion_only_threshold:
             suspicious = True
             label = "force_entry_suspected"
-            confidence = min(0.9, motion_mag * 5.0)
+            confidence = min(0.95, min(0.99, motion_for_decision * 5.0))
         elif (
             self.hands_weight * hands_frac +
             self.raised_weight * raised_frac +
@@ -447,7 +485,7 @@ class GestureRecognizer:
                 self.hands_weight * hands_frac +
                 self.raised_weight * raised_frac +
                 self.speed_weight * speed_ratio +
-                self.motion_weight * motion_mag
+                self.motion_weight * motion_for_decision
             )
             suspicious = True
             label = "force_entry_suspected"
@@ -473,6 +511,8 @@ class GestureRecognizer:
             'hands_frac': hands_frac,
             'speed_ratio': speed_ratio,
             'motion_mag': motion_mag,
+            'motion_mag_raw': motion_mag,
+            'motion_mag_ema': self.motion_ema,
             'suspicion_score': suspicion_score,
             'history_len': len(self.wrist_history)
         }
@@ -480,7 +520,14 @@ class GestureRecognizer:
         if self.verbose:
             self.logger.info(f"Gesture analysis -> suspicious={suspicious}, label={label}, conf={confidence}, details={details}")
 
-        return suspicious, label, float(confidence), details
+        # Smooth returned confidence to avoid flicker on overlays
+        try:
+            self.confidence_ema = (self.ema_alpha * float(confidence)) + (1.0 - self.ema_alpha) * self.confidence_ema
+            smooth_conf = float(self.confidence_ema)
+        except Exception:
+            smooth_conf = float(confidence)
+
+        return suspicious, label, float(smooth_conf), details
 
     def close(self):
         try:
