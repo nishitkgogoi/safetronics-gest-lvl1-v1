@@ -3983,3 +3983,717 @@
 2025-12-17 18:59:59,356 - INFO - DOOR LOCKED - Servo 1 rotated 0°
 2025-12-17 18:59:59,508 - INFO - Security event logged: DOOR_LOCKED - system
 2025-12-17 18:59:59,509 - INFO - Security System stopped and cleaned up
+2025-12-17 19:26:30,945 - INFO - Face recognition model loaded successfully
+2025-12-17 19:26:30,945 - INFO - Known faces: ['owner']
+2025-12-17 19:26:30,946 - INFO - Database setup completed
+2025-12-17 19:26:30,947 - INFO - File storage setup completed
+2025-12-17 19:26:30,962 - WARNING - No serial ports detected. Running in simulation mode.
+2025-12-17 19:26:30,962 - INFO - Camera Tracking System initialized
+2025-12-17 19:28:47,986 - INFO - Face recognition model loaded successfully
+2025-12-17 19:28:47,987 - INFO - Known faces: ['owner']
+2025-12-17 19:28:47,990 - INFO - Database setup completed
+2025-12-17 19:28:47,990 - INFO - File storage setup completed
+2025-12-17 19:28:48,006 - WARNING - No serial ports detected. Running in simulation mode.
+2025-12-17 19:28:48,007 - INFO - Camera Tracking System initialized
+2025-12-17 19:28:48,009 - INFO - Gesture result poller started
+2025-12-17 19:28:48,009 - INFO - Security System STARTED - Press 'q' to quit, 't' to train, 'l' to lock door
+2025-12-17 19:28:49,899 - WARNING - [ALERT] SECURITY ALERT: SUSPICIOUS_MOTION
+2025-12-17 19:28:49,908 - WARNING - Alert logged: SUSPICIOUS_MOTION - HIGH - Suspicious movement detected near entrance
+2025-12-17 19:28:49,908 - INFO - SMS to POLICE: SECURITY ALERT: SUSPICIOUS_MOTION - Suspicious movement detected near entrance - Location: Your Address
+2025-12-17 19:28:49,910 - INFO - SMS to OWNER: HOME SECURITY: SUSPICIOUS_MOTION - Suspicious movement detected near entrance
+2025-12-17 19:28:49,986 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:28:49,988 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:28:50,096 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:28:50,197 - ERROR - Can't receive frame from camera
+2025-12-17 19:28:50,197 - INFO - Security System stopped and cleaned up
+2025-12-17 19:28:57,522 - INFO - Face recognition model loaded successfully
+2025-12-17 19:28:57,522 - INFO - Known faces: ['owner']
+2025-12-17 19:28:57,525 - INFO - Database setup completed
+2025-12-17 19:28:57,526 - INFO - File storage setup completed
+2025-12-17 19:28:57,549 - WARNING - No serial ports detected. Running in simulation mode.
+2025-12-17 19:28:57,550 - INFO - Camera Tracking System initialized
+2025-12-17 19:28:57,551 - INFO - Gesture result poller started
+2025-12-17 19:28:57,553 - INFO - Security System STARTED - Press 'q' to quit, 't' to train, 'l' to lock door
+2025-12-17 19:28:58,664 - WARNING - [ALERT] SECURITY ALERT: SUSPICIOUS_MOTION
+2025-12-17 19:28:58,669 - WARNING - Alert logged: SUSPICIOUS_MOTION - HIGH - Suspicious movement detected near entrance
+2025-12-17 19:28:58,670 - INFO - SMS to POLICE: SECURITY ALERT: SUSPICIOUS_MOTION - Suspicious movement detected near entrance - Location: Your Address
+2025-12-17 19:28:58,670 - INFO - SMS to OWNER: HOME SECURITY: SUSPICIOUS_MOTION - Suspicious movement detected near entrance
+2025-12-17 19:28:58,758 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:28:58,759 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:28:58,868 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:28:58,963 - ERROR - Can't receive frame from camera
+2025-12-17 19:28:58,963 - INFO - Security System stopped and cleaned up
+2025-12-17 19:30:33,558 - INFO - Face recognition model loaded successfully
+2025-12-17 19:30:33,559 - INFO - Known faces: ['owner']
+2025-12-17 19:30:33,560 - INFO - Database setup completed
+2025-12-17 19:30:33,562 - INFO - File storage setup completed
+2025-12-17 19:30:33,577 - WARNING - No serial ports detected. Running in simulation mode.
+2025-12-17 19:30:33,581 - INFO - Camera Tracking System initialized
+2025-12-17 19:30:53,813 - INFO - Camera initialized successfully
+2025-12-17 19:30:53,814 - INFO - Gesture result poller started
+2025-12-17 19:30:53,815 - INFO - Security System STARTED - Press 'q' to quit, 't' to train, 'l' to lock door
+2025-12-17 19:30:54,840 - WARNING - [ALERT] SECURITY ALERT: SUSPICIOUS_MOTION
+2025-12-17 19:30:54,853 - WARNING - Alert logged: SUSPICIOUS_MOTION - HIGH - Suspicious movement detected near entrance
+2025-12-17 19:30:54,853 - INFO - SMS to POLICE: SECURITY ALERT: SUSPICIOUS_MOTION - Suspicious movement detected near entrance - Location: Your Address
+2025-12-17 19:30:54,854 - INFO - SMS to OWNER: HOME SECURITY: SUSPICIOUS_MOTION - Suspicious movement detected near entrance
+2025-12-17 19:30:54,969 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:30:54,970 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:30:55,106 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:30:55,549 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:30:55,549 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:30:55,562 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:30:55,563 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:30:55,563 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:30:55,685 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:30:55,685 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:30:55,802 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:30:55,803 - INFO - Tracking servo moved to 65°
+2025-12-17 19:30:55,918 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:30:56,065 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:30:56,065 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193055.avi
+2025-12-17 19:30:56,081 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_4a576e12716a4e2697f9c67adc52e5ff.avi
+2025-12-17 19:30:56,081 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_4a576e12716a4e2697f9c67adc52e5ff.avi
+2025-12-17 19:30:56,156 - INFO - Tracking servo moved to 34°
+2025-12-17 19:30:56,246 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:30:56,392 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:30:56,394 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193056.avi
+2025-12-17 19:30:56,409 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_17a7b8e648bb4e4a9acdd584bef77d1a.avi
+2025-12-17 19:30:56,409 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_17a7b8e648bb4e4a9acdd584bef77d1a.avi
+2025-12-17 19:30:56,462 - INFO - Tracking servo moved to 4°
+2025-12-17 19:30:56,561 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:30:56,712 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:30:56,713 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193056.avi
+2025-12-17 19:30:56,729 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_9d1ea1a8c72d4b8b890821efe9c306e4.avi
+2025-12-17 19:30:56,731 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_9d1ea1a8c72d4b8b890821efe9c306e4.avi
+2025-12-17 19:30:56,799 - INFO - Tracking servo moved to 15°
+2025-12-17 19:30:56,892 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:30:57,061 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:30:57,062 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193056.avi
+2025-12-17 19:30:57,075 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_521ee89e4ca24f8c8e55ff621d65bfac.avi
+2025-12-17 19:30:57,076 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_521ee89e4ca24f8c8e55ff621d65bfac.avi
+2025-12-17 19:30:57,139 - INFO - Tracking servo moved to 27°
+2025-12-17 19:30:57,241 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:30:57,400 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:30:57,401 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193057.avi
+2025-12-17 19:30:57,415 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_5e21ba4f32fb4bdc916390ae64983d2f.avi
+2025-12-17 19:30:57,416 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_5e21ba4f32fb4bdc916390ae64983d2f.avi
+2025-12-17 19:30:57,473 - INFO - Tracking servo moved to 38°
+2025-12-17 19:30:57,568 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:30:57,736 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:30:57,736 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193057.avi
+2025-12-17 19:30:57,755 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_65236cf3df2f4da0914d6108ec303c2b.avi
+2025-12-17 19:30:57,756 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_65236cf3df2f4da0914d6108ec303c2b.avi
+2025-12-17 19:30:57,808 - INFO - Tracking servo moved to 8°
+2025-12-17 19:30:57,900 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:30:58,084 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:30:58,084 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193057.avi
+2025-12-17 19:30:58,099 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_033926c1091f4416884bec8091efb633.avi
+2025-12-17 19:30:58,100 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_033926c1091f4416884bec8091efb633.avi
+2025-12-17 19:30:58,174 - INFO - Tracking servo moved to 0°
+2025-12-17 19:30:58,271 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:30:58,472 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:30:58,473 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193058.avi
+2025-12-17 19:30:58,492 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_640a38198c3e4b51946b44b0e2cf180c.avi
+2025-12-17 19:30:58,494 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_640a38198c3e4b51946b44b0e2cf180c.avi
+2025-12-17 19:30:58,545 - INFO - DOOR UNLOCKED - Servo 1 rotated 90°
+2025-12-17 19:30:58,638 - INFO - Security event logged: DOOR_UNLOCKED - owner
+2025-12-17 19:30:59,346 - INFO - Tracking servo moved to 12°
+2025-12-17 19:30:59,465 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:30:59,717 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:30:59,718 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193059.avi
+2025-12-17 19:30:59,734 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_68dcd48f87764395a3488f026877b7d4.avi
+2025-12-17 19:30:59,736 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_68dcd48f87764395a3488f026877b7d4.avi
+2025-12-17 19:31:00,076 - INFO - Tracking servo moved to 24°
+2025-12-17 19:31:00,162 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:00,424 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:00,425 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193100.avi
+2025-12-17 19:31:00,442 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_882fef1255724f6d8650adf061a88cec.avi
+2025-12-17 19:31:00,442 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_882fef1255724f6d8650adf061a88cec.avi
+2025-12-17 19:31:00,494 - INFO - Tracking servo moved to 35°
+2025-12-17 19:31:00,597 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:00,868 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:00,870 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193100.avi
+2025-12-17 19:31:00,884 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_3b567126eac244528596d799ad975fa5.avi
+2025-12-17 19:31:00,885 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_3b567126eac244528596d799ad975fa5.avi
+2025-12-17 19:31:00,924 - INFO - Tracking servo moved to 90°
+2025-12-17 19:31:01,028 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:02,480 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:31:02,484 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:31:02,495 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:31:02,495 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:31:02,495 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:31:02,591 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:31:02,591 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:31:02,710 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:31:02,712 - INFO - Tracking servo moved to 101°
+2025-12-17 19:31:02,818 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:03,092 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:03,092 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193102.avi
+2025-12-17 19:31:03,110 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_1ce1fdfd3dda413da8dfc4c4b1565f40.avi
+2025-12-17 19:31:03,115 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_1ce1fdfd3dda413da8dfc4c4b1565f40.avi
+2025-12-17 19:31:04,091 - INFO - Tracking servo moved to 105°
+2025-12-17 19:31:04,205 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:04,472 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:04,473 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193104.avi
+2025-12-17 19:31:04,485 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_b26457d300c94cbeb2bf7b57bbd03f00.avi
+2025-12-17 19:31:04,488 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_b26457d300c94cbeb2bf7b57bbd03f00.avi
+2025-12-17 19:31:04,700 - INFO - Tracking servo moved to 115°
+2025-12-17 19:31:04,788 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:05,056 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:05,058 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193104.avi
+2025-12-17 19:31:05,071 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_02186793eaf4441b841bf59d52b46f5d.avi
+2025-12-17 19:31:05,074 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_02186793eaf4441b841bf59d52b46f5d.avi
+2025-12-17 19:31:05,128 - INFO - Tracking servo moved to 125°
+2025-12-17 19:31:05,220 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:05,504 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:05,505 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193105.avi
+2025-12-17 19:31:05,521 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_2db84b757fe54928879c5cde1dcefcd1.avi
+2025-12-17 19:31:05,522 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_2db84b757fe54928879c5cde1dcefcd1.avi
+2025-12-17 19:31:05,685 - INFO - Tracking servo moved to 136°
+2025-12-17 19:31:05,773 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:06,035 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:06,036 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193105.avi
+2025-12-17 19:31:06,054 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_77cb89f968e04fd1963fb66e73f34a86.avi
+2025-12-17 19:31:06,054 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_77cb89f968e04fd1963fb66e73f34a86.avi
+2025-12-17 19:31:06,091 - INFO - Tracking servo moved to 148°
+2025-12-17 19:31:06,185 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:06,441 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:06,443 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193106.avi
+2025-12-17 19:31:06,459 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_ce2c7460e16f45caa3ac67d44fa16f89.avi
+2025-12-17 19:31:06,459 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_ce2c7460e16f45caa3ac67d44fa16f89.avi
+2025-12-17 19:31:07,484 - INFO - Tracking servo moved to 90°
+2025-12-17 19:31:07,594 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:08,671 - INFO - DOOR LOCKED - Servo 1 rotated 0°
+2025-12-17 19:31:08,772 - INFO - Security event logged: DOOR_LOCKED - system
+2025-12-17 19:31:12,551 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:31:12,551 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:31:12,562 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:31:12,562 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:31:12,564 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:31:12,676 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:31:12,676 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:31:12,783 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:31:12,784 - INFO - Tracking servo moved to 105°
+2025-12-17 19:31:12,900 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:13,184 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:13,185 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193112.avi
+2025-12-17 19:31:13,200 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_6bae82eb16a940c8964d6cc99369330c.avi
+2025-12-17 19:31:13,200 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_6bae82eb16a940c8964d6cc99369330c.avi
+2025-12-17 19:31:14,421 - INFO - Tracking servo moved to 119°
+2025-12-17 19:31:14,508 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:14,758 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:14,758 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193114.avi
+2025-12-17 19:31:14,778 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_e5a96b9b27a34f28b6ba0952a5737f8b.avi
+2025-12-17 19:31:14,782 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_e5a96b9b27a34f28b6ba0952a5737f8b.avi
+2025-12-17 19:31:17,609 - INFO - Tracking servo moved to 90°
+2025-12-17 19:31:17,716 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:17,951 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:31:17,952 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:31:17,961 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:31:17,962 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:31:17,962 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:31:18,068 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:31:18,068 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:31:18,190 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:31:18,191 - INFO - Tracking servo moved to 60°
+2025-12-17 19:31:18,293 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:18,566 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:18,567 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193118.avi
+2025-12-17 19:31:18,584 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_c7b1d9b392b44c53af7ba5653be4c095.avi
+2025-12-17 19:31:18,592 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_c7b1d9b392b44c53af7ba5653be4c095.avi
+2025-12-17 19:31:18,662 - INFO - Tracking servo moved to 56°
+2025-12-17 19:31:18,748 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:19,004 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:19,005 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193118.avi
+2025-12-17 19:31:19,021 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_b1dd0920ac2a451b82a393ea91a77592.avi
+2025-12-17 19:31:19,023 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_b1dd0920ac2a451b82a393ea91a77592.avi
+2025-12-17 19:31:19,082 - INFO - DOOR UNLOCKED - Servo 1 rotated 90°
+2025-12-17 19:31:19,170 - INFO - Security event logged: DOOR_UNLOCKED - owner
+2025-12-17 19:31:19,234 - INFO - Tracking servo moved to 25°
+2025-12-17 19:31:19,329 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:19,593 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:19,594 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193119.avi
+2025-12-17 19:31:19,611 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_a4ae03be4b0c40ceb9ba702215897fd2.avi
+2025-12-17 19:31:19,611 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_a4ae03be4b0c40ceb9ba702215897fd2.avi
+2025-12-17 19:31:19,933 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:19,934 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193119.avi
+2025-12-17 19:31:19,950 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_1593631235c340b291bb6c8f55fb07ee.avi
+2025-12-17 19:31:19,951 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_1593631235c340b291bb6c8f55fb07ee.avi
+2025-12-17 19:31:20,266 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:20,267 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193120.avi
+2025-12-17 19:31:20,282 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_3a6a8502a515418584f4d6fff2d0b8e3.avi
+2025-12-17 19:31:20,283 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_3a6a8502a515418584f4d6fff2d0b8e3.avi
+2025-12-17 19:31:20,610 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:20,611 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193120.avi
+2025-12-17 19:31:20,624 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_ab69cad6327943f191ea708b37cf0a13.avi
+2025-12-17 19:31:20,626 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_ab69cad6327943f191ea708b37cf0a13.avi
+2025-12-17 19:31:20,809 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:20,909 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:21,213 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:21,214 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193120.avi
+2025-12-17 19:31:21,232 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_92c61943dadb40ac9fe289c6d1e7732a.avi
+2025-12-17 19:31:21,233 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_92c61943dadb40ac9fe289c6d1e7732a.avi
+2025-12-17 19:31:21,472 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:21,587 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:21,886 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:21,887 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193121.avi
+2025-12-17 19:31:21,900 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_ab6335620e6b4b669a08f4058e43b9c2.avi
+2025-12-17 19:31:21,901 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_ab6335620e6b4b669a08f4058e43b9c2.avi
+2025-12-17 19:31:21,970 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:22,073 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:22,370 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:22,371 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193122.avi
+2025-12-17 19:31:22,393 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_61a0c7cafda24ab5ad17c88c648d4ef4.avi
+2025-12-17 19:31:22,438 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_61a0c7cafda24ab5ad17c88c648d4ef4.avi
+2025-12-17 19:31:22,488 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:22,589 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:22,844 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:22,846 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193122.avi
+2025-12-17 19:31:22,864 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_6ea868c1955747fda6750e0654e3aab1.avi
+2025-12-17 19:31:22,866 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_6ea868c1955747fda6750e0654e3aab1.avi
+2025-12-17 19:31:22,910 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:23,003 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:23,285 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:23,286 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193123.avi
+2025-12-17 19:31:23,305 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_0d6d7ae188d84660a8a523c342c1e171.avi
+2025-12-17 19:31:23,307 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_0d6d7ae188d84660a8a523c342c1e171.avi
+2025-12-17 19:31:23,353 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:23,457 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:23,719 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:23,720 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193123.avi
+2025-12-17 19:31:23,733 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_87181ce500664cb6818f88548bcee329.avi
+2025-12-17 19:31:23,734 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_87181ce500664cb6818f88548bcee329.avi
+2025-12-17 19:31:23,781 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:23,872 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:24,127 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:24,127 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193123.avi
+2025-12-17 19:31:24,146 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_6d246570425e40b4a00e9955ea0de4e1.avi
+2025-12-17 19:31:24,148 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_6d246570425e40b4a00e9955ea0de4e1.avi
+2025-12-17 19:31:24,209 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:24,299 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:24,566 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:24,567 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193124.avi
+2025-12-17 19:31:24,583 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_cff7a1a248904c0fb52b48ff0c9d4f06.avi
+2025-12-17 19:31:24,586 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_cff7a1a248904c0fb52b48ff0c9d4f06.avi
+2025-12-17 19:31:24,647 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:24,751 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:24,990 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:24,990 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193124.avi
+2025-12-17 19:31:25,007 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_1c7ff0f6caf04804b307e812d3a0e547.avi
+2025-12-17 19:31:25,008 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_1c7ff0f6caf04804b307e812d3a0e547.avi
+2025-12-17 19:31:25,074 - INFO - Tracking servo moved to 9°
+2025-12-17 19:31:25,180 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:25,464 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:25,465 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193125.avi
+2025-12-17 19:31:25,479 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_f5778c701fb04581a4879749b82092e6.avi
+2025-12-17 19:31:25,480 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_f5778c701fb04581a4879749b82092e6.avi
+2025-12-17 19:31:25,534 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:25,621 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:26,012 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:26,013 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193125.avi
+2025-12-17 19:31:26,030 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_a72b412f26d74de4a273dbd4769d2a20.avi
+2025-12-17 19:31:26,032 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_a72b412f26d74de4a273dbd4769d2a20.avi
+2025-12-17 19:31:26,074 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:26,165 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:26,418 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:26,418 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193126.avi
+2025-12-17 19:31:26,434 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_9243f3f0118b4813ad61a2308f6f4559.avi
+2025-12-17 19:31:26,435 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_9243f3f0118b4813ad61a2308f6f4559.avi
+2025-12-17 19:31:26,489 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:26,589 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:26,870 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:26,872 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193126.avi
+2025-12-17 19:31:26,888 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_2687661368da4babb9cd10272071eb48.avi
+2025-12-17 19:31:26,888 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_2687661368da4babb9cd10272071eb48.avi
+2025-12-17 19:31:26,939 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:27,028 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:27,289 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:27,290 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193127.avi
+2025-12-17 19:31:27,317 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_a81d53f6d4ee41c486c407572442fcbd.avi
+2025-12-17 19:31:27,317 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_a81d53f6d4ee41c486c407572442fcbd.avi
+2025-12-17 19:31:27,358 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:27,446 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:27,710 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:27,712 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193127.avi
+2025-12-17 19:31:27,732 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_5f5d6d2ff7404b778181a11065d6ec9c.avi
+2025-12-17 19:31:27,733 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_5f5d6d2ff7404b778181a11065d6ec9c.avi
+2025-12-17 19:31:27,789 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:27,880 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:28,139 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:28,139 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193127.avi
+2025-12-17 19:31:28,153 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_793acf667eb84d1c82663896f45b7066.avi
+2025-12-17 19:31:28,154 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_793acf667eb84d1c82663896f45b7066.avi
+2025-12-17 19:31:28,213 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:28,320 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:28,597 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:28,598 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193128.avi
+2025-12-17 19:31:28,613 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_68721a6d99594088af66fdf51601dc33.avi
+2025-12-17 19:31:28,614 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_68721a6d99594088af66fdf51601dc33.avi
+2025-12-17 19:31:28,657 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:28,753 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:29,021 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:29,022 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193128.avi
+2025-12-17 19:31:29,039 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_acc686334d1a430b96d09882bacd7c41.avi
+2025-12-17 19:31:29,042 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_acc686334d1a430b96d09882bacd7c41.avi
+2025-12-17 19:31:29,100 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:29,188 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:29,458 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:29,459 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193129.avi
+2025-12-17 19:31:29,476 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_07ba4f7bfd63471aa0511ad174a86527.avi
+2025-12-17 19:31:29,477 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_07ba4f7bfd63471aa0511ad174a86527.avi
+2025-12-17 19:31:29,479 - INFO - DOOR LOCKED - Servo 1 rotated 0°
+2025-12-17 19:31:29,589 - INFO - Security event logged: DOOR_LOCKED - system
+2025-12-17 19:31:29,664 - INFO - Tracking servo moved to 7°
+2025-12-17 19:31:29,763 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:30,020 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:30,020 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193129.avi
+2025-12-17 19:31:30,039 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_385e7315655c4216a15630b77da4f2fd.avi
+2025-12-17 19:31:30,042 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_385e7315655c4216a15630b77da4f2fd.avi
+2025-12-17 19:31:30,086 - INFO - Tracking servo moved to 90°
+2025-12-17 19:31:30,197 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:31,293 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:31:31,294 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:31:31,305 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:31:31,306 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:31:31,306 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:31:31,434 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:31:31,435 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:31:31,553 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:31:31,554 - INFO - Tracking servo moved to 99°
+2025-12-17 19:31:31,673 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:31,952 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:31,960 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193131.avi
+2025-12-17 19:31:31,977 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_162615bd0058425fb6552a34eb96e44c.avi
+2025-12-17 19:31:31,985 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_162615bd0058425fb6552a34eb96e44c.avi
+2025-12-17 19:31:32,057 - INFO - Tracking servo moved to 105°
+2025-12-17 19:31:32,169 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:32,429 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:32,430 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193132.avi
+2025-12-17 19:31:32,444 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_09da92d7757a4513886fd292e3c652ca.avi
+2025-12-17 19:31:32,450 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_09da92d7757a4513886fd292e3c652ca.avi
+2025-12-17 19:31:32,511 - INFO - Tracking servo moved to 111°
+2025-12-17 19:31:32,618 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:32,866 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:32,866 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193132.avi
+2025-12-17 19:31:32,882 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_031dd5eb978d4a468a3602071a921dcb.avi
+2025-12-17 19:31:32,884 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_031dd5eb978d4a468a3602071a921dcb.avi
+2025-12-17 19:31:32,934 - INFO - Tracking servo moved to 117°
+2025-12-17 19:31:33,031 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:33,312 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:33,313 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193133.avi
+2025-12-17 19:31:33,328 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_3390d47decf74f90b47a47ca9d36aa51.avi
+2025-12-17 19:31:33,330 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_3390d47decf74f90b47a47ca9d36aa51.avi
+2025-12-17 19:31:33,385 - INFO - Tracking servo moved to 123°
+2025-12-17 19:31:33,482 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:33,753 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:33,754 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193133.avi
+2025-12-17 19:31:33,772 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_cd783a4aef2646a28a2aca844b9e908a.avi
+2025-12-17 19:31:33,773 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_cd783a4aef2646a28a2aca844b9e908a.avi
+2025-12-17 19:31:33,817 - INFO - Tracking servo moved to 128°
+2025-12-17 19:31:33,905 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:34,182 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:34,183 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193133.avi
+2025-12-17 19:31:34,196 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_7b71f56ed14343e69257e2bda68bec1c.avi
+2025-12-17 19:31:34,196 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_7b71f56ed14343e69257e2bda68bec1c.avi
+2025-12-17 19:31:34,264 - INFO - Tracking servo moved to 135°
+2025-12-17 19:31:34,361 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:34,644 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:34,645 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193134.avi
+2025-12-17 19:31:34,664 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_5ec7384f775d439e80ca34048970c56c.avi
+2025-12-17 19:31:34,665 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_5ec7384f775d439e80ca34048970c56c.avi
+2025-12-17 19:31:34,712 - INFO - Tracking servo moved to 147°
+2025-12-17 19:31:34,803 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:35,069 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:35,071 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193134.avi
+2025-12-17 19:31:35,085 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_536fd8dbfe7f4990b763d606cc7ece70.avi
+2025-12-17 19:31:35,087 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_536fd8dbfe7f4990b763d606cc7ece70.avi
+2025-12-17 19:31:35,134 - INFO - Tracking servo moved to 161°
+2025-12-17 19:31:35,242 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:35,526 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:35,526 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193135.avi
+2025-12-17 19:31:35,542 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_86fb3b1b7a3b42b4a39651c16672e08c.avi
+2025-12-17 19:31:35,543 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_86fb3b1b7a3b42b4a39651c16672e08c.avi
+2025-12-17 19:31:35,603 - INFO - DOOR UNLOCKED - Servo 1 rotated 90°
+2025-12-17 19:31:35,712 - INFO - Security event logged: DOOR_UNLOCKED - owner
+2025-12-17 19:31:36,336 - INFO - Tracking servo moved to 90°
+2025-12-17 19:31:36,430 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:39,948 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:31:39,948 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:31:39,958 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:31:39,959 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:31:39,959 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:31:40,059 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:31:40,060 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:31:40,172 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:31:40,172 - INFO - Tracking servo moved to 60°
+2025-12-17 19:31:40,288 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:40,532 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:40,532 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193140.avi
+2025-12-17 19:31:40,546 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_53bd83faca3d4ce59f2a6dc5134f1fbd.avi
+2025-12-17 19:31:40,547 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_53bd83faca3d4ce59f2a6dc5134f1fbd.avi
+2025-12-17 19:31:42,551 - INFO - Tracking servo moved to 63°
+2025-12-17 19:31:42,660 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:42,919 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:42,923 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193142.avi
+2025-12-17 19:31:42,937 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_13f20953548944698ecb3c4faf8d6148.avi
+2025-12-17 19:31:42,937 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_13f20953548944698ecb3c4faf8d6148.avi
+2025-12-17 19:31:43,775 - INFO - Tracking servo moved to 33°
+2025-12-17 19:31:43,888 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:44,153 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:44,154 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193143.avi
+2025-12-17 19:31:44,169 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_1182065d212b402bbf642ec4722581ea.avi
+2025-12-17 19:31:44,170 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_1182065d212b402bbf642ec4722581ea.avi
+2025-12-17 19:31:44,959 - INFO - Tracking servo moved to 90°
+2025-12-17 19:31:45,063 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:45,558 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:31:45,565 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:31:45,575 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:31:45,580 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:31:45,580 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:31:45,697 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:31:45,697 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:31:45,790 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:31:45,791 - INFO - Tracking servo moved to 60°
+2025-12-17 19:31:45,910 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:46,181 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:46,182 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193145.avi
+2025-12-17 19:31:46,194 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_cb6874b864284fd4b03d7c6083ad84d0.avi
+2025-12-17 19:31:46,197 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_cb6874b864284fd4b03d7c6083ad84d0.avi
+2025-12-17 19:31:46,200 - INFO - DOOR LOCKED - Servo 1 rotated 0°
+2025-12-17 19:31:46,300 - INFO - Security event logged: DOOR_LOCKED - system
+2025-12-17 19:31:47,207 - INFO - Tracking servo moved to 42°
+2025-12-17 19:31:47,317 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:47,565 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:47,566 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193147.avi
+2025-12-17 19:31:47,581 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_aa0d72f569af4a999bf5d004f3b1879b.avi
+2025-12-17 19:31:47,581 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_aa0d72f569af4a999bf5d004f3b1879b.avi
+2025-12-17 19:31:50,423 - INFO - Tracking servo moved to 12°
+2025-12-17 19:31:50,526 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:50,765 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:50,766 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193150.avi
+2025-12-17 19:31:50,779 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_b0d2f993080e4c1699f22eac73e2bd1d.avi
+2025-12-17 19:31:50,781 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_b0d2f993080e4c1699f22eac73e2bd1d.avi
+2025-12-17 19:31:50,824 - INFO - Tracking servo moved to 90°
+2025-12-17 19:31:50,922 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:51,031 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:31:51,031 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:31:51,041 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:31:51,042 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:31:51,042 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:31:51,142 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:31:51,142 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:31:51,247 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:31:51,249 - INFO - Tracking servo moved to 60°
+2025-12-17 19:31:51,368 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:51,632 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:51,632 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193151.avi
+2025-12-17 19:31:51,646 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_35b6ecf8bea74bf08a114e451761f632.avi
+2025-12-17 19:31:51,650 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_35b6ecf8bea74bf08a114e451761f632.avi
+2025-12-17 19:31:51,893 - INFO - Tracking servo moved to 30°
+2025-12-17 19:31:52,009 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:52,258 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:52,258 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193152.avi
+2025-12-17 19:31:52,277 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_f245064d430847b1bfb8be5370ed625e.avi
+2025-12-17 19:31:52,279 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_f245064d430847b1bfb8be5370ed625e.avi
+2025-12-17 19:31:52,325 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:52,415 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:52,691 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:52,692 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193152.avi
+2025-12-17 19:31:52,708 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_c39b71fed4684e1d927d3448e96b6ad1.avi
+2025-12-17 19:31:52,713 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_c39b71fed4684e1d927d3448e96b6ad1.avi
+2025-12-17 19:31:52,825 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:52,914 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:53,187 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:53,188 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193152.avi
+2025-12-17 19:31:53,205 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_a64b46fba6394218925b2347de248c67.avi
+2025-12-17 19:31:53,205 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_a64b46fba6394218925b2347de248c67.avi
+2025-12-17 19:31:53,251 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:53,365 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:53,677 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:53,678 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193153.avi
+2025-12-17 19:31:53,697 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_edd4592b1d7b499aa7dadd44606e52c2.avi
+2025-12-17 19:31:53,697 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_edd4592b1d7b499aa7dadd44606e52c2.avi
+2025-12-17 19:31:54,217 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:54,314 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:54,575 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:54,575 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193154.avi
+2025-12-17 19:31:54,594 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_c6716b9541e642688b6b06ce0f9adc3f.avi
+2025-12-17 19:31:54,595 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_c6716b9541e642688b6b06ce0f9adc3f.avi
+2025-12-17 19:31:54,699 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:54,797 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:55,106 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:55,107 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193154.avi
+2025-12-17 19:31:55,120 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_c36f68736029466aa3bbd6d1fead17d6.avi
+2025-12-17 19:31:55,122 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_c36f68736029466aa3bbd6d1fead17d6.avi
+2025-12-17 19:31:55,124 - WARNING - [ALERT] SECURITY ALERT: SUSPICIOUS_MOTION
+2025-12-17 19:31:55,138 - WARNING - Alert logged: SUSPICIOUS_MOTION - HIGH - Suspicious movement detected near entrance
+2025-12-17 19:31:55,139 - INFO - SMS to POLICE: SECURITY ALERT: SUSPICIOUS_MOTION - Suspicious movement detected near entrance - Location: Your Address
+2025-12-17 19:31:55,140 - INFO - SMS to OWNER: HOME SECURITY: SUSPICIOUS_MOTION - Suspicious movement detected near entrance
+2025-12-17 19:31:55,239 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:31:55,240 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:31:55,357 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:31:55,402 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:55,508 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:55,794 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:55,798 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193155.avi
+2025-12-17 19:31:55,814 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_3f7c4c360f97428489922cce7b2a697a.avi
+2025-12-17 19:31:55,817 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_3f7c4c360f97428489922cce7b2a697a.avi
+2025-12-17 19:31:55,897 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:56,006 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:56,271 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:56,274 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193156.avi
+2025-12-17 19:31:56,286 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_df4f3e187923477481896d8014fbb6f1.avi
+2025-12-17 19:31:56,287 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_df4f3e187923477481896d8014fbb6f1.avi
+2025-12-17 19:31:56,341 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:56,436 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:56,709 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:56,710 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193156.avi
+2025-12-17 19:31:56,723 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_221e25ba64994f5cbbcf88278f542578.avi
+2025-12-17 19:31:56,726 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_221e25ba64994f5cbbcf88278f542578.avi
+2025-12-17 19:31:56,784 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:56,891 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:57,153 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:57,153 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193156.avi
+2025-12-17 19:31:57,169 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_f9d8f11e15dd480d9e645035f4d68746.avi
+2025-12-17 19:31:57,170 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_f9d8f11e15dd480d9e645035f4d68746.avi
+2025-12-17 19:31:57,212 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:57,315 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:57,582 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:57,583 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193157.avi
+2025-12-17 19:31:57,596 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_570ce2d1a5d8417bb74d340cac05d47f.avi
+2025-12-17 19:31:57,596 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_570ce2d1a5d8417bb74d340cac05d47f.avi
+2025-12-17 19:31:57,629 - INFO - Tracking servo moved to 90°
+2025-12-17 19:31:57,739 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:58,091 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:31:58,091 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:31:58,102 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:31:58,102 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:31:58,102 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:31:58,224 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:31:58,225 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:31:58,345 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:31:58,346 - INFO - Tracking servo moved to 60°
+2025-12-17 19:31:58,460 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:58,734 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:58,734 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193158.avi
+2025-12-17 19:31:58,748 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_3bdfa308df2249ed90d5e804d3b9f0eb.avi
+2025-12-17 19:31:58,754 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_3bdfa308df2249ed90d5e804d3b9f0eb.avi
+2025-12-17 19:31:58,818 - INFO - Tracking servo moved to 30°
+2025-12-17 19:31:58,922 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:59,180 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:59,182 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193158.avi
+2025-12-17 19:31:59,195 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_1612f4b1bf884e87a2516a6991f77f0c.avi
+2025-12-17 19:31:59,196 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_1612f4b1bf884e87a2516a6991f77f0c.avi
+2025-12-17 19:31:59,283 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:59,379 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:31:59,772 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:31:59,772 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193159.avi
+2025-12-17 19:31:59,788 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_90e77f2ac5624fc892b9becf960dceec.avi
+2025-12-17 19:31:59,789 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_90e77f2ac5624fc892b9becf960dceec.avi
+2025-12-17 19:31:59,833 - INFO - Tracking servo moved to 0°
+2025-12-17 19:31:59,938 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:00,191 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:00,193 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193159.avi
+2025-12-17 19:32:00,209 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_f929196e8396429995698d8285480968.avi
+2025-12-17 19:32:00,209 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_f929196e8396429995698d8285480968.avi
+2025-12-17 19:32:00,358 - INFO - Tracking servo moved to 0°
+2025-12-17 19:32:00,465 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:00,726 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:00,727 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193200.avi
+2025-12-17 19:32:00,741 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_17aefb0321f246aca864c25f3595f561.avi
+2025-12-17 19:32:00,746 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_17aefb0321f246aca864c25f3595f561.avi
+2025-12-17 19:32:00,839 - INFO - Tracking servo moved to 0°
+2025-12-17 19:32:00,933 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:01,188 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:01,189 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193200.avi
+2025-12-17 19:32:01,205 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_d8b6640633eb4bfc89bea01c287e19f0.avi
+2025-12-17 19:32:01,205 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_d8b6640633eb4bfc89bea01c287e19f0.avi
+2025-12-17 19:32:01,262 - INFO - Tracking servo moved to 0°
+2025-12-17 19:32:01,359 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:01,612 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:01,613 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193201.avi
+2025-12-17 19:32:01,626 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_84820648581b46c0bc3e2b23e33525ba.avi
+2025-12-17 19:32:01,627 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_84820648581b46c0bc3e2b23e33525ba.avi
+2025-12-17 19:32:01,712 - INFO - Tracking servo moved to 0°
+2025-12-17 19:32:01,819 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:02,078 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:02,079 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193201.avi
+2025-12-17 19:32:02,095 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_719da960d36e4b8e972adaa278e3b0ec.avi
+2025-12-17 19:32:02,095 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_719da960d36e4b8e972adaa278e3b0ec.avi
+2025-12-17 19:32:02,164 - INFO - Tracking servo moved to 0°
+2025-12-17 19:32:02,263 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:02,550 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:02,551 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193202.avi
+2025-12-17 19:32:02,566 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_ee61255edeb4454f912a6825c6d6f89b.avi
+2025-12-17 19:32:02,567 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_ee61255edeb4454f912a6825c6d6f89b.avi
+2025-12-17 19:32:02,811 - INFO - Tracking servo moved to 0°
+2025-12-17 19:32:02,909 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:03,164 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:03,164 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193202.avi
+2025-12-17 19:32:03,183 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_ac6571a6977c48408b6ff7a8beee0015.avi
+2025-12-17 19:32:03,186 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_ac6571a6977c48408b6ff7a8beee0015.avi
+2025-12-17 19:32:03,229 - INFO - Tracking servo moved to 90°
+2025-12-17 19:32:03,346 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:03,688 - WARNING - Unknown person detected - starting tracking
+2025-12-17 19:32:03,688 - WARNING - [ALERT] SECURITY ALERT: INTRUDER_DETECTED
+2025-12-17 19:32:03,698 - WARNING - Alert logged: INTRUDER_DETECTED - CRITICAL - Unknown person attempting access
+2025-12-17 19:32:03,698 - INFO - SMS to POLICE: SECURITY ALERT: INTRUDER_DETECTED - Unknown person attempting access - Location: Your Address
+2025-12-17 19:32:03,698 - INFO - SMS to OWNER: HOME SECURITY: INTRUDER_DETECTED - Unknown person attempting access
+2025-12-17 19:32:03,801 - INFO - Security event logged: GSM_ALERT_SENT - system
+2025-12-17 19:32:03,803 - INFO - SECURITY RELAY ACTIVATED - Additional security measures enabled
+2025-12-17 19:32:03,916 - INFO - Security event logged: RELAY_ACTIVATED - system
+2025-12-17 19:32:03,917 - INFO - Tracking servo moved to 60°
+2025-12-17 19:32:04,038 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:04,296 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:04,297 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193204.avi
+2025-12-17 19:32:04,309 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_05e67aaa78d64161868ed15b31c8c6cc.avi
+2025-12-17 19:32:04,312 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_05e67aaa78d64161868ed15b31c8c6cc.avi
+2025-12-17 19:32:04,412 - INFO - Tracking servo moved to 30°
+2025-12-17 19:32:04,521 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:04,794 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:04,795 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193204.avi
+2025-12-17 19:32:04,811 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_fe774a9ae90f408a98d5c41eb39dbc81.avi
+2025-12-17 19:32:04,812 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_fe774a9ae90f408a98d5c41eb39dbc81.avi
+2025-12-17 19:32:04,992 - INFO - Tracking servo moved to 0°
+2025-12-17 19:32:05,086 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:05,342 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:05,346 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193205.avi
+2025-12-17 19:32:05,360 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_3c2d68fa796a41febe477d6e2c6013bc.avi
+2025-12-17 19:32:05,361 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_3c2d68fa796a41febe477d6e2c6013bc.avi
+2025-12-17 19:32:05,605 - INFO - Tracking servo moved to 3°
+2025-12-17 19:32:05,713 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:05,989 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:05,989 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193205.avi
+2025-12-17 19:32:06,008 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_2682f8dea3e04f7b883943ee77c5d68c.avi
+2025-12-17 19:32:06,009 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_2682f8dea3e04f7b883943ee77c5d68c.avi
+2025-12-17 19:32:06,100 - INFO - Tracking servo moved to 0°
+2025-12-17 19:32:06,196 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:06,461 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:06,461 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193206.avi
+2025-12-17 19:32:06,479 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_1934a60fdac34e48bfabd1a89a8e6494.avi
+2025-12-17 19:32:06,480 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_1934a60fdac34e48bfabd1a89a8e6494.avi
+2025-12-17 19:32:06,581 - INFO - Tracking servo moved to 3°
+2025-12-17 19:32:06,702 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:06,976 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:06,977 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193206.avi
+2025-12-17 19:32:06,990 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_958c41b74b35486f852551ebf6b0dd47.avi
+2025-12-17 19:32:06,991 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_958c41b74b35486f852551ebf6b0dd47.avi
+2025-12-17 19:32:07,079 - INFO - Tracking servo moved to 6°
+2025-12-17 19:32:07,194 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:07,437 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:07,438 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193207.avi
+2025-12-17 19:32:07,454 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_fb6bb0f2af604dacadf84a82668ac75e.avi
+2025-12-17 19:32:07,455 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_fb6bb0f2af604dacadf84a82668ac75e.avi
+2025-12-17 19:32:07,692 - INFO - Tracking servo moved to 9°
+2025-12-17 19:32:07,801 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:08,063 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:08,067 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193207.avi
+2025-12-17 19:32:08,084 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_82c76dd62c7c4de1adf67f0dbdb30706.avi
+2025-12-17 19:32:08,084 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_82c76dd62c7c4de1adf67f0dbdb30706.avi
+2025-12-17 19:32:08,173 - INFO - Tracking servo moved to 0°
+2025-12-17 19:32:08,270 - INFO - Security event logged: TRACKING_MOVEMENT - unknown
+2025-12-17 19:32:08,531 - INFO - Security event logged: VIDEO_gesture_candidate - unknown
+2025-12-17 19:32:08,532 - INFO - Saved evidence clip: evidence/videos/gesture_candidate_unknown_20251217_193208.avi
+2025-12-17 19:32:08,546 - INFO - Queued clip for gesture analysis: evidence/gesture_queue/incoming/gesture_542226a645794f4e8a9f9f84123d21fa.avi
+2025-12-17 19:32:08,548 - INFO - Clip queued for gesture worker: evidence/gesture_queue/incoming/gesture_542226a645794f4e8a9f9f84123d21fa.avi
+2025-12-17 19:32:08,907 - INFO - Security System stopped and cleaned up

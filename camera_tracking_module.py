@@ -81,17 +81,67 @@ class CameraTrackingSystem:
     def _init_serial_connection(self):
         """Initialize serial connection to Arduino with error handling."""
         try:
-            self.serial_connection = serial.Serial(
-                port=self.serial_port,
-                baudrate=self.baud_rate,
-                timeout=1
-            )
-            # Allow Arduino to reset after serial connection
-            time.sleep(2)
-            self.logger.info(f"Serial connection established on {self.serial_port} at {self.baud_rate} baud")
-        except serial.SerialException as e:
-            self.logger.warning(f"Could not establish serial connection: {e}. Running in simulation mode.")
+            # First, try the explicitly configured port if provided
+            attempted_ports = []
+            if self.serial_port:
+                attempted_ports.append(self.serial_port)
+                try:
+                    self.serial_connection = serial.Serial(
+                        port=self.serial_port,
+                        baudrate=self.baud_rate,
+                        timeout=1
+                    )
+                    time.sleep(2)
+                    self.logger.info(f"Serial connection established on {self.serial_port} at {self.baud_rate} baud")
+                    return
+                except Exception as ex:
+                    self.logger.debug(f"Failed to open configured serial port {self.serial_port}: {ex}")
+
+            # Auto-detect available serial ports (try those that look like USB/Arduino first)
+            try:
+                from serial.tools import list_ports
+                ports = list(list_ports.comports())
+            except Exception as ex:
+                ports = []
+                self.logger.debug(f"Could not enumerate serial ports: {ex}")
+
+            # Prefer ports that mention Arduino or USB in description
+            preferred = []
+            others = []
+            for p in ports:
+                device = getattr(p, 'device', None)
+                desc = (getattr(p, 'description', '') or '').lower()
+                hwid = getattr(p, 'hwid', '')
+                attempted_ports.append(device)
+                if 'arduino' in desc or 'usb' in desc or 'usb' in str(hwid).lower():
+                    preferred.append(device)
+                else:
+                    others.append(device)
+
+            candidates = preferred + others
+
+            for dev in candidates:
+                if not dev:
+                    continue
+                try:
+                    self.serial_connection = serial.Serial(port=dev, baudrate=self.baud_rate, timeout=1)
+                    time.sleep(2)
+                    self.serial_port = dev
+                    self.logger.info(f"Serial connection established on {dev} at {self.baud_rate} baud")
+                    return
+                except Exception as ex:
+                    self.logger.debug(f"Failed to open serial port {dev}: {ex}")
+
+            # If we get here, no ports were successfully opened
+            if ports:
+                port_list_str = '\n'.join([f"- {getattr(p,'device', '')}: {getattr(p,'description','')} (hwid={getattr(p,'hwid','')})" for p in ports])
+                self.logger.warning(
+                    "Could not establish serial connection on any detected port. Running in simulation mode. Available ports:\n" + port_list_str
+                )
+            else:
+                self.logger.warning("No serial ports detected. Running in simulation mode.")
             self.serial_connection = None
+
         except Exception as e:
             self.logger.warning(f"Unexpected error initializing serial: {e}. Running in simulation mode.")
             self.serial_connection = None

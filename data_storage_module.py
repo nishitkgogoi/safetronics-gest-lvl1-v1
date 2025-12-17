@@ -272,7 +272,7 @@ class DataStorage:
             shutil.copy2(clip_path, dest)
 
             # Write metadata file with same uid
-            # Ensure bbox is JSON-serializable (convert numpy/int types to plain ints)
+            # Sanitize bbox and other data to ensure JSON serializable types
             safe_bbox = None
             if bbox is not None:
                 try:
@@ -288,14 +288,74 @@ class DataStorage:
                 'timestamp': datetime.now().isoformat()
             }
             meta_path = dest.replace('.avi', '.json')
-            with open(meta_path, 'w') as f:
-                json.dump(meta, f)
+
+            # Use the sanitizer to remove numpy / non-JSON types
+            try:
+                safe_meta = self._sanitize_for_json(meta)
+            except Exception:
+                safe_meta = meta
+
+            with open(meta_path, 'w', encoding='utf-8') as f:
+                json.dump(safe_meta, f, indent=2)
 
             self.logger.info(f"Queued clip for gesture analysis: {dest}")
             return dest
         except Exception as e:
             self.logger.error(f"Error queueing clip for gesture: {e}")
             return None
+
+    def _sanitize_for_json(self, obj):
+        """Recursively convert numpy and other non-JSON-safe types to native Python types.
+
+        This will convert numpy integers/floats to int/float, numpy arrays to lists,
+        and ensure nested dict/list structures are sanitized.
+        """
+        try:
+            import numpy as np
+        except Exception:
+            np = None
+
+        # Primitive safe types
+        if obj is None or isinstance(obj, (str, bool, int, float)):
+            return obj
+
+        # Numpy scalar types
+        if np is not None:
+            if isinstance(obj, (np.integer,)):
+                return int(obj)
+            if isinstance(obj, (np.floating,)):
+                return float(obj)
+            if isinstance(obj, (np.ndarray,)):
+                return [self._sanitize_for_json(x) for x in obj.tolist()]
+
+        # Dict - sanitize keys and values
+        if isinstance(obj, dict):
+            sanitized = {}
+            for k, v in obj.items():
+                # Ensure key is a string
+                key = str(k)
+                sanitized[key] = self._sanitize_for_json(v)
+            return sanitized
+
+        # List / tuple / set
+        if isinstance(obj, (list, tuple, set)):
+            return [self._sanitize_for_json(x) for x in obj]
+
+        # Bytes -> decode
+        if isinstance(obj, (bytes, bytearray)):
+            try:
+                return obj.decode('utf-8')
+            except Exception:
+                return str(obj)
+
+        # Fallback: try to cast to primitive
+        try:
+            return int(obj)
+        except Exception:
+            try:
+                return float(obj)
+            except Exception:
+                return str(obj)
 
     def get_recent_events(self, limit=10):
         """Retrieve recent security events"""
